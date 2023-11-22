@@ -7,4 +7,4 @@ STDERR.print <<~EOS
 
 EOS
 
-Kernel.exec "/bin/bash", "-c", '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"'
+Kernel.exec "/bin/bash", "-c", '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/zuuky/install/master/install.sh)"'
